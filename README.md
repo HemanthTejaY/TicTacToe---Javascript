@@ -1,5 +1,4 @@
-# TicTacToe---Javascript
-A TicTacToe game 
+# A TicTacToe game 
 
 # Play the game here :
 
