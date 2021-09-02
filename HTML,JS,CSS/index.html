@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <section>
+        <p><h1  class="MainHeading animate__animated animate__bounceInLeft">Team Confetti - TicTacToe</h1></p>
+        <span class="emoji hourglass" role="img" aria-label="hourglass"></span>
+        <h2 id="game_status" class="game--status"></h2>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="1" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="2" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="3" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="4" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="5" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="6" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="7" class="cell animate__animated animate__fadeInDown"></div>
+            <div data-cell-index="8" class="cell animate__animated animate__fadeInDown"></div>
+        </div>
+        
+        <button id="btn" class="resetTheGame buttonshape">RESET</button>
+
+    </section>
+
+    <script src="script.js"></script>
+    <script src="confetti.min.js"></script>
+</body>
+</html>

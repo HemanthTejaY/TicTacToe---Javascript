@@ -1,0 +1,111 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: rgb(58, 61, 58);
+}
+
+#game_status{
+  color:rgb(128, 159, 241);
+}
+
+p {
+  border: 2px solid white;
+  margin: 50px;
+}
+
+section {
+    text-align: center;
+}
+
+.MainHeading {
+    font-size: 100px;
+    color: #f5ac58;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #000103;
+    color: #fdfdfd;
+    /* border-radius: 10px; */
+}
+
+
+
+.cell {
+    font-family: "Times New Roman", serif;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #f7f7f7;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+.cell:hover {
+  background-color: #122358;
+  color: white;
+}
+
+.status {
+    font-size: 50px;
+    color: #fcfcfc;
+    margin: 20px auto;
+    
+}
+
+.resetTheGame {
+    margin:40px;
+    background-color: #67b673;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    box-shadow: 2px 2px 2px 2px #72a77a;
+    border: 2px solid #72a77a;
+    border-radius: 15px;
+}
+
+.buttonshape {border-radius: 50%;}
+.buttonshape:hover {
+  background-color: #020000;
+  color: white;
+}
+
+body2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.emoji {
+    font-size: calc(100px + 4vw);
+    min-width: 1.4em;
+    margin: 0.3em 0.4em;
+    text-align: center;
+}
+
+.emoji::after {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.monkey::after {
+    content: '🙈';
+    --emoji-1: '🙉';
+    --emoji-2: '🙊';
+    animation-name: threeFrames;
+    animation-duration: 2s;
+}
+
+.hourglass::after {
+    content: '⏳';
+    --emoji: '⌛️';
+    animation-name: twoFrames;
+    animation-duration: 1.2s;
+}
